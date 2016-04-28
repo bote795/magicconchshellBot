@@ -1,0 +1,28 @@
+{
+  "name": "magic-conch-shell-bot",
+  "version": "0.0.1",
+  "description": "sponge bob  magic conch shell ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bote795/magicconchshellBot.git"
+  },
+  "keywords": [
+    "bot",
+    "spongebob",
+    "facebook",
+    "messenger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bote795/magicconchshellBot/issues"
+  },
+  "homepage": "https://github.com/bote795/magicconchshellBot#readme",
+  "dependencies": {
+    "messenger-bot": "^2.2.0"
+  }
+}
