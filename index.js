@@ -25,8 +25,11 @@ let responses = [ "Maybe someday",
 bot.on('message', (payload, reply) => {
   let logText = payload.message.text
   let replyText =""
-  var randomNumber = Math.floor(Math.random()*responses.length)
-
+  var randomNumber = Math.floor(Math.random()*responses.length-1)
+  if (logText.toLowerCase() === 'is this the krusty krab?') 
+  {
+   replyText = responses[responses.length-1]; 
+  }
   replyText= responses[randomNumber]
 
   bot.getProfile(payload.sender.id, (err, profile) => {
